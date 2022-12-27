@@ -1,0 +1,17 @@
+﻿@model MVCBootsrap.Models.EntityFramework.To_Do_List
+@{
+    ViewBag.Title = "New";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2></h2>
+
+@using (Html.BeginForm("New", "Home", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.LabelFor(m => m.TaskName)
+        @Html.TextBoxFor(m => m.TaskName, new { @class = "form-control" })
+    </div>
+    @Html.HiddenFor(m=>m.ID)
+    <button type="submit" class="btn btn-success">Add</button>
+}

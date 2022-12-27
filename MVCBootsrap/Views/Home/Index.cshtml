@@ -1,0 +1,32 @@
+﻿@using MVCBootsrap.Models.EntityFramework
+@model List<To_Do_List>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>To Do List</h2>
+<a class="btn btn-primary" href="/Home/New">Add new task</a>
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Task</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var ordr in Model)
+            {
+            <tr>
+                <td>@ordr.ID</td>
+                <td>@ordr.TaskName</td>
+                <td><a class="btn btn-primary" href="/Home/Update/@ordr.ID">Edit</a></td>
+                <td><a class="btn btn-warning" href="/Home/Delete/@ordr.ID">Delete</a></td>
+            </tr>
+            }
+        
+    </tbody>
+</table>
