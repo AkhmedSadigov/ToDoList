@@ -115,7 +115,14 @@
     <Content Include="Web\assets\img\home-bg.jpg" />
     <Content Include="Web\assets\img\logo.png" />
     <Content Include="Web\assets\img\me.jpg" />
+    <Content Include="Web\assets\img\portfolio\about_me.jpg" />
+    <Content Include="Web\assets\img\portfolio\app1.jpg" />
+    <Content Include="Web\assets\img\portfolio\app2.jpg" />
+    <Content Include="Web\assets\img\portfolio\app3.jpeg" />
+    <Content Include="Web\assets\img\portfolio\batumi-1.jpg" />
     <Content Include="Web\assets\img\portfolio\bcg-madrid.jpg" />
+    <Content Include="Web\assets\img\portfolio\Istanbul-1.jpg" />
+    <Content Include="Web\assets\img\portfolio\kharkiv.jpg" />
     <Content Include="Web\assets\img\portfolio\portfolio-1.jpg" />
     <Content Include="Web\assets\img\portfolio\portfolio-2.jpg" />
     <Content Include="Web\assets\img\portfolio\portfolio-3.jpg" />
@@ -125,6 +132,10 @@
     <Content Include="Web\assets\img\portfolio\portfolio-details-1.jpg" />
     <Content Include="Web\assets\img\portfolio\portfolio-details-2.jpg" />
     <Content Include="Web\assets\img\portfolio\portfolio-details-3.jpg" />
+    <Content Include="Web\assets\img\portfolio\sport.jpg" />
+    <Content Include="Web\assets\img\portfolio\web1.jpg" />
+    <Content Include="Web\assets\img\portfolio\web2.jpg" />
+    <Content Include="Web\assets\img\top.jpg" />
     <Content Include="Web\assets\js\main.js" />
     <Content Include="Web\assets\scss\Readme.txt" />
     <Content Include="Web\assets\vendor\bootstrap-icons\bootstrap-icons.css" />
